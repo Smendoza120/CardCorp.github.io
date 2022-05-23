@@ -346,6 +346,11 @@ footer .container_footer a:hover{
         color: #e9183b;
     }
 
+    #productos_2 .carta{
+        height: 430px;
+    }
+
+
     #footer_1{
         padding: 5px 0 5px 0;
     }
