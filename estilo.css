@@ -85,7 +85,7 @@ header .container_1{
     margin-right: 30px;
 }
 
-ul.show{
+ul .show{
     top: 65px;
 }
 
@@ -317,13 +317,13 @@ footer .container_footer a:hover{
     }
 
     .menu_items{
-        background-color: #414141;
+        background-color: rgb(21, 12, 31);
         position: fixed;
         flex-direction: column;
         height: calc(100% - 65px);
-        top: -100vw;
+        top: -100vh;
         text-align: center;
-        transition: all .3s;
+        transition: all .4s;
         width: 100vw;
     }
 
@@ -337,13 +337,13 @@ footer .container_footer a:hover{
     }
 
     .menu_items li a{
-        color: white;
+        color: rgb(36, 118, 165);
         font-size: 20px;
         font-weight: bold;
     }
 
     .menu_items li a:hover{
-        color: #e9183b;
+        color: rgba(16, 154, 229, 0.87);
     }
 
     #productos_2 .carta{
