@@ -1,0 +1,51 @@
+footer {
+    background-color: rgb(106, 106, 106);
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .container_footer {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .footer_1 {
+    padding: 10px 0 20px 0;
+  
+    a {
+      font-size: 40px;
+    }
+  }
+  
+  .container_footer .facebook {
+    margin: 0 240px;
+  }
+  
+  footer hr {
+    margin: 0 3%;
+  }
+  
+  .footer_2 {
+    background-color: rgb(106, 106, 106);
+    height: 99px;
+    padding-top: 30px;
+    width: 100%;
+  
+    a {
+      font-size: 30px;
+      margin: 0 30px;
+    }
+  }
+  
+  footer .container_footer a {
+    color: rgb(48, 47, 47);
+    text-decoration: none;
+    transition: all .3s;
+  
+    &:hover {
+      color: black;
+      text-decoration: underline;
+    }
+  }

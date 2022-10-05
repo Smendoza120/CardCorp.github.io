@@ -1,0 +1,65 @@
+header {
+    background-color: rgb(17, 9, 19);
+    margin-top: -115px;
+    padding-top: 10px;
+    padding-bottom: 75px;
+    position: fixed;
+    width: 100%;
+    .container_1 {
+        position: fixed;
+        width: 100%;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 10px;
+    margin: 20px 0;
+  }
+
+.container_1 nav {
+    margin-top: 5px;
+}
+
+  .container {
+    img {
+      transition: all .3s;
+  
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.038);
+      }
+    }
+  
+    ul li {
+      display: inline-block;
+  
+      a {
+        color: rgb(36, 118, 165);
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all .3s;
+        padding-right: 15px;
+  
+        &:hover {
+          color: rgba(16, 154, 229, 0.87);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+  .btn_menu {
+    color: rgb(36, 118, 165);
+    cursor: pointer;
+    display: none;
+    font-size: 25px;
+    margin-right: 30px;
+  }
+  
+  ul.show {
+    top: 65px;
+  }

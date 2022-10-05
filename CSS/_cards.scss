@@ -1,0 +1,53 @@
+#productos_2 {
+    .container_carta {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+      justify-content: center;
+    }
+  
+    .carta {
+      color: rgb(220, 224, 240);
+      background-color: rgba(196, 196, 196, 0.25);
+      background-image: url(/Imagenes/slider\ 1.jpg);
+      background-size: 100% 100px;
+      background-repeat: no-repeat;
+      border: 1px solid;
+      border-radius: 5px;
+      height: 380px;
+      margin: 20px;
+      padding: 100px 0;
+      text-align: center;
+      width: 280px;
+    }
+  
+    h2 {
+      font-weight: lighter;
+      padding-bottom: 10px;
+    }
+  
+    p {
+      text-align: justify;
+      padding: 0 15px;
+      padding-bottom: 20px;
+    }
+  
+    .precio {
+      text-align: center;
+    }
+  
+    a {
+      background-color: rgba(83, 83, 83, 0.5);
+      color: white;
+      border: 1px solid;
+      border-radius: 4px;
+      font-weight: lighter;
+      padding: 2px 38px;
+      text-decoration: none;
+      &:hover {
+        background-color: rgba(131, 130, 130, 0.904);
+        color: rgb(35, 111, 156);
+        text-decoration: none;
+      }
+    }
+  }

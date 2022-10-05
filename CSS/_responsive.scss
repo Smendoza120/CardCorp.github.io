@@ -1,0 +1,69 @@
+@media screen and (max-width: 700px) {
+    .container.menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .btn_menu {
+      display: inline-flex;
+    }
+  
+    .menu_items {
+      background-color: rgb(17, 9, 19);
+      position: fixed;
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      top: -100vw;
+      right: 0;
+      text-align: center;
+      transition: all .3s linear;
+      width: 100vw;
+      text-align: center;
+      overflow: hidden;
+  
+      li {
+        line-height: 30px;
+        padding: 20px 0;
+  
+        &:hover {
+          background-color: none;
+        }
+  
+        a {
+          color: white;
+          font-size: 20px;
+          font-weight: bold;
+  
+          &:hover {
+            color: rgb(17, 9, 19);
+          }
+        }
+      }
+    }
+  
+    #productos_2 .carta {
+      height: 430px;
+    }
+  
+    #footer_1 {
+      padding: 5px 0 5px 0;
+    }
+  
+    .container_footer .facebook {
+      margin: 0 100px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) and (orientation: landscape) {
+    .menu_items {
+      li {
+        margin: 5px 0 0 0;
+      }
+  
+      overflow: scroll;
+    }
+  }
