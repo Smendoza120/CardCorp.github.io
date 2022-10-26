@@ -8,7 +8,7 @@
 body {
   font-family: "PT Sans", sans-serif;
   font-size: medium;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Imagenes/Fondo.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Imagenes/Fondo.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -99,7 +99,7 @@ ul.show {
 #productos_1 {
   align-items: center;
   color: rgb(220, 224, 240);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/tcg_fondo_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/tcg_fondo_1.jpg);
   background-size: cover;
   display: flex;
   height: 300px;
@@ -131,7 +131,7 @@ ul.show {
 #productos_2 .carta {
   color: rgb(220, 224, 240);
   background-color: rgba(196, 196, 196, 0.25);
-  background-image: url(/Imagenes/slider\ 1.jpg);
+  background-image: url(../Imagenes/slider\ 1.jpg);
   background-size: 100% 100px;
   background-repeat: no-repeat;
   border: 1px solid;
@@ -172,7 +172,7 @@ ul.show {
 #contacto_1 {
   align-items: center;
   color: rgb(220, 224, 240);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Imagenes/fondo_2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/fondo_2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 45% 55%;
